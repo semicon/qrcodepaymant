@@ -86,8 +86,11 @@
 
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
+<script type="module">
     import promptpayQr from 'https://cdn.jsdelivr.net/npm/promptpay-qr@0.5.0/+esm'
+</script>
+<script>
+    
     $(document).ready(() => {
         let phoneNumber = "0123456789"; // หมายเลขพร้อมเพย์
         updateQRCode(0);
