@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAPER WORK PROMPTPAY QR CODE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module">
-        import promptpayQr from 'https://cdn.jsdelivr.net/npm/promptpay-qr@0.5.0/+esm'
+        import promptpayQr from 'https://fastly.jsdelivr.net/npm/promptpay-qr@0.5.0/+esm'
+        window.promptpayQr = promptpayQr
     </script>
     <style>
         body {
@@ -83,16 +83,15 @@
     <button class="btn btn-primary w-100 mt-3" id="alert-save">📢 ขั้นตอนการใช้งาน</button>
 
     <div class="footer">
-        <small>ชื่อบัญชี : Wichy Khan</small><br>
-        <small>หมายเลขพร้อมเพย์ : 0123456789</small>
+        <small>ชื่อบัญชี : นรินทร์ภัทร มีชัย</small><br>
+        <small>หมายเลขพร้อมเพย์ : 14000XXXXX299</small>
     </div>
 </div>
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    
     $(document).ready(() => {
-        let phoneNumber = "3100600929772"; // หมายเลขพร้อมเพย์
+        let phoneNumber = "140000621803299"; // หมายเลขพร้อมเพย์
         updateQRCode(0);
 
         $('#amount').on('input', () => {
@@ -161,4 +160,4 @@
 </script>
 
 </body>
-</html>
+</html
